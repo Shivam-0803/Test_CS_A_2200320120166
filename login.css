@@ -15,7 +15,7 @@ body {
     color: #fff;
 }
 
-.login-container {
+.login {
     width: 350px;
     padding: 2rem;
     background-color: rgba(255, 255, 255, 0.1);
@@ -39,7 +39,7 @@ label {
     color: #e0e0e0;
 }
 
-input[type="text"], input[type="password"] {
+input[type="email"], input[type="password"] {
     width: 100%;
     padding: 12px;
     margin-top: 8px;
@@ -51,12 +51,12 @@ input[type="text"], input[type="password"] {
     font-size: 16px;
 }
 
-input[type="text"]::placeholder,
+input[type="email"]::placeholder,
 input[type="password"]::placeholder {
     color: #cfd8dc;
 }
 
-button {
+.button {
     width: 100%;
     padding: 12px;
     margin-top: 10px;
@@ -69,11 +69,28 @@ button {
     transition: background 0.3s;
 }
 
-button:hover {
+.button:hover {
     background-color: #030303;
 }
 
-.error-message {
+.reset {
+    width: 100%;
+    padding: 12px;
+    margin-top: 10px;
+    background-color: #ff6b6b;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.reset:hover {
+    background-color: #d9534f;
+}
+
+.message {
     color: #ff6b6b;
     margin-top: 10px;
     font-size: 14px;
